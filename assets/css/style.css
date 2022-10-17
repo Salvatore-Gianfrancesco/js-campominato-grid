@@ -7,6 +7,7 @@
 :root {
     --light: #f8f9fa;
     --dark: #212529;
+    --light-blue: #add8e6;
 }
 
 .cell {
@@ -17,7 +18,12 @@
     font-size: 20px;
     font-weight: bold;
     border: 1px solid var(--dark);
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.light_blue {
+    background-color: var(--light-blue);
 }
