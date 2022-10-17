@@ -26,9 +26,11 @@ buttonEl.addEventListener("click", function () {
         cellEl.addEventListener("click", function () {
             cellEl.classList.toggle("light_blue");
             console.log(i + 1);
+
+            const resultClick = document.querySelector(".col-2 > div");
+            resultClick.innerHTML = i + 1;
         });
     }
-
 });
 
 

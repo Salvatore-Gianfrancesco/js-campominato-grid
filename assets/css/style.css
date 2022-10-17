@@ -35,6 +35,10 @@
     align-items: center;
 }
 
+.col-2 div {
+    height: 70px;
+}
+
 .light_blue {
     background-color: var(--light-blue);
 }
