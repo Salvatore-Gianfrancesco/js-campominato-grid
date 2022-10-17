@@ -1,4 +1,5 @@
 const containerEl = document.querySelector(".container");
+const buttonEl = document.querySelector("button");
 
 const maxValue = 100;
 
@@ -11,3 +12,9 @@ for (let i = 0; i < maxValue; i++) {
     containerEl.insertAdjacentElement("beforeend", cellEl);
     console.log(cellEl);
 }
+
+/* Button that generates the grid */
+buttonEl.addEventListener("click", function () {
+    containerEl.classList.remove("d-none");
+    buttonEl.classList.add("d-none");
+});
