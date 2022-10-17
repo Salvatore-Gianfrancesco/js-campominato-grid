@@ -10,8 +10,19 @@
     --light-blue: #add8e6;
 }
 
-.cell {
+.w_10 {
     width: calc((100% / 10));
+}
+
+.w_9 {
+    width: calc((100% / 9));
+}
+
+.w_7 {
+    width: calc((100% / 7));
+}
+
+.cell {
     aspect-ratio: 1/1;
     background-color: var(--light);
     color: var(--dark);
