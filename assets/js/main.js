@@ -24,7 +24,7 @@ buttonEl.addEventListener("click", function () {
     for (let i = 0; i < cellList.length; i++) {
         const cellEl = cellList[i];
         cellEl.addEventListener("click", function () {
-            cellEl.classList.toggle("light_blue");
+            cellEl.classList.add("light_blue");
             console.log(i + 1);
 
             const resultClick = document.querySelector(".col-2 > div");
@@ -47,6 +47,7 @@ function gridCreation(difficulty) {
             break;
         case "easy":
             maxValue = 49;
+            break;
     }
 
     for (let i = 0; i < maxValue; i++) {
